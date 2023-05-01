@@ -1,4 +1,8 @@
-
+/** Takes 2 arguments from command line: 
+ *  1. a URL 
+ *  2. a local file path
+ *  Saves data from URL to the specified file path and logs the number of bytes downloaded.
+ * */ 
 // require fs for fileWrite
 const fs = require('fs');
 
